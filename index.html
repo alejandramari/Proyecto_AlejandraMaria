@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
-    <script defer.src="./main.js"></script>
+    <script defer src="./main.js"></script>
 </head>
 <body>
     <header>
@@ -52,6 +52,36 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+  </div> 
+
+ <!-- contenedor general para poner las noticias -->
+ <div class="contenedor">
+   <!-- primera noticia-->
+     <div class="noticias">
+        <h1>Ayude a los jóvenes emprendedores a alcanzar el éxito</h1>
+          <div id="contenido">
+              <!--este contenedor es el que quiero ocultar/mostrar-->
+              <p>Potenciar el potencial de los jóvenes emprendedores no se trata sólo de éxito individual; se trata de dar forma a un futuro en el que la innovación sea la norma, las economías sean resilientes y los sueños se transformen en realidades. ¡Únase al movimiento para brindarles una oportunidad a los jóvenes emprendedores y sea testigo del poder transformador de sus sueños con JA Connect ! Libere su MVP interior, potencie su potencial hoy y participe en las historias de éxito que darán forma al panorama empresarial del mañana.</p>
+          </div>
+          <button onclick="muestra_oculta('contenido')" class="btn btn-primary" form="contenido"></button>
+        </div>
+      <div class="noticias">
+          <h1>Empoderando el futuro:</h1>
+          <div id="contenido2">
+              <!--este contenedor es el que quiero ocultar/mostrar-->
+              <p>La educación financiera es una habilidad vital que todo el mundo debería adquirir, pero a menudo se pasa por alto en la educación tradicional. JA reconoce esta brecha e interviene para brindarles a los estudiantes experiencias de aprendizaje prácticas. Estas experiencias van desde la elaboración de presupuestos, el ahorro y la inversión hasta la comprensión del crédito y la deuda, lo que permite a los jóvenes desarrollar una base sólida en lo personal.</p>
+          </div>
+          <button onclick="muestra_oculta('contenido2')" class="btn btn-primary" form="contenido2"></button>
+        </div>
+          <div class="noticias">
+              <h1>El poder del voluntariado</h1>
+              <div id="contenido3">
+                  <!--este contenedor es el que quiero ocultar/mostrar-->
+                  <p>Una vía a través de la cual las personas pueden lograr un impacto tangible en sus comunidades es a través del voluntariado. El acto de ser voluntario no sólo beneficia a los destinatarios sino que también aporta una sensación de realización y propósito a los propios voluntarios. Fomenta un sentido de conexión y responsabilidad compartida, construyendo comunidades más fuertes y resilientes.</p>
+              </div>
+              <button onclick="muestra_oculta('contenido3')" class="btn btn-primary" form="contenido3"></button>
+            </div>
 
   </div>  
 
